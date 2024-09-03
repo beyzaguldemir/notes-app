@@ -1,0 +1,12 @@
+/* Modüler CSS özellikle büyük ölçekli projelerde stil yönetimini kolaylastıran bir yöntemdir. Temel olarak modül css'de her bir css dosyası kendine özgü bir kapsamda çalısır ve buda stil çakısmalarını önler
+
+* Modül css sayesinde iki farklı bileşen aynı class ismini kullansa dahi stil çakısması gerceklesmez*/
+.note_card{
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.note_card:hover{
+    transform: translate(10px, -10px);
+    filter: drop-shadow(0 0 20px rgba(255,255,255,0.3));
+}
